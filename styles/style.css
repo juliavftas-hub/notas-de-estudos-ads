@@ -6,8 +6,11 @@ body {
 
 
 h1 {
+    /* aplica em todos os 4 cantos */
+    /* margin: 0; */
+    /* aplica em Y e X */
+    /* margin: 10px 20px; */
     /* a ordem das margens top, rigth, bottom, left*/
-
     margin: 0 0 20px 0;
    
 }
