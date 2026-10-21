@@ -5,20 +5,31 @@ const app = express()
 //request e response, requisisao e resposta
 //get é o metodo 
 //cannot get é pq nao digitou certo no navegador
-app.get("/api", (req, res) => {
+app.get("/api/soma", (req, res) => {
 
     const num1 = Number(req.query.num1)
     const num2 = Number(req.query.num2)
 
     res.send({ soma: num1 + num2 })
+})
 
-    app.get("/api/sub/:num1/:num2", (req, res) => {
+    app.get("/api/sub", (req, res) => {
 
 
         const num1 = Number(req.params.num1)
         const num2 = Number(req.params.num2)
 
         res.send({ soma: num1 - num2 })
+
+    })
+
+    app.get("/api/multi/:num1/:num2", (req, res) => {
+
+
+        const num1 = Number(req.params.num1)
+        const num2 = Number(req.params.num2)
+
+        res.send({ multi: num1 * num2 })
 
     })
 

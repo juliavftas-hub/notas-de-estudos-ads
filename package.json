@@ -12,5 +12,14 @@
   },
   "dependencies": {
     "express": "^5.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliavftas-hub/notas-de-estudos-ads.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/juliavftas-hub/notas-de-estudos-ads/issues"
+  },
+  "homepage": "https://github.com/juliavftas-hub/notas-de-estudos-ads#readme"
 }
